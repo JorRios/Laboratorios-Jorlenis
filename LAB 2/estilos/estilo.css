@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: white;
+	font-size: 18px;
+	padding: 12px;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease;
+	margin-right: 12px;
+	border-radius: 8px;
+}
+a:hover, li:hover {
+	background: white;
+	color: black;
+	transform: scale (1.2) rotate (-5deg);
+	-webkit-transform:scale(1.2) rotate (-5deg);
+	transition: all 0.5s ease;
+
+}
+.articulo1 .articulo2{
+	display: inline-block;
+	vertical-align: top;
+}
+.articulo1{
+	width: 40%;
+	display: inline-block;
+	margin: 12px;
+}
+
+.articulo2{
+	width: 40%;
+	background: white;
+	display: inline-block;
+	margin:12px;
+}
+
+.formulario{
+	background: #819FF7;
+	padding: 15px;
+	opacity: 0;
+	height: 0;
+	width: 0;
+}
+
+body{
+	background:black;
+	color: white;
+	font-family: Helvetica;
+}
+
+button{
+	height: 4em;
+	width:100%;
+	font-size: 16px;
+	font-size: bold;
+}
+
+button:hover{
+	border:3px solid blue;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+figure img{
+	width: 100%;
+}
+figcaption{
+	background: white;
+	color: black;
+	margin-left: 30px;
+}
+
+header{
+	border:solid;
+	padding: 60px;
+	text-align: center;
+}
+h1{
+	text-shadow: #0ff 2px 2px 20px;
+}
+
+hgroup h2{
+	text-shadow: #0ff 2px 2px 20px;
+	margin: 5px;
+}
+
+legend{
+	margin-left:3em;
+}
+
+input{
+	width: 100% ;
+	margin-bottom: 8px;
+	height: 2em;
+}
+
+nav{
+	background: rgba(60,60,150,0.8);
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+main{
+	margin-top: 15px;
+}
+nav ul li{
+	background: #Be3f33;
+	display: inline-block;
+	padding: 10px;
+	margin-right: 12px;
+	border-radius: 6px;
+
+}
+
+footer{
+	background: #Be3f33;
+	margin-top: 15px;
+	padding: 15px;
+	text-align: center;
+
+}
+
